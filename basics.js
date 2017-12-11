@@ -37,6 +37,9 @@ function greet(name){
  * (there are 6 different data types);
  */
 
+ var dataTypes = ["strings", true, 35, null, undefined, ["cats", "dogs"]];
+ 
+
 /* Create a `dog` object
  * it should have a `bark` function that makes your dog bark!
  * It should also have a name attribute with the value of 'Spot'
