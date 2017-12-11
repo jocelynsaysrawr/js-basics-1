@@ -38,9 +38,18 @@ function greet(name){
  */
 
  var dataTypes = ["strings", true, 35, null, undefined, ["cats", "dogs"]];
- 
+
 
 /* Create a `dog` object
  * it should have a `bark` function that makes your dog bark!
  * It should also have a name attribute with the value of 'Spot'
  */
+
+ var dog = {
+ 	name: "Spot",
+ 	bark: function(){
+ 		console.log("bark");
+ 	}
+ };
+
+ 
